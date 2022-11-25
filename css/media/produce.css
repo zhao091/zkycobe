@@ -1,0 +1,26 @@
+@media screen and (max-width:991px) {
+    .produce1 img{
+        width:100%;
+    }
+    .as button{
+        margin:0;
+    }
+    .imgs img{
+        margin-left:-30px;
+        max-width:110%;
+    }
+    .produce3 .imgs{
+        flex-direction: column;
+    }
+    .data h5{
+        padding:0;
+    }
+    .data .up {
+        padding-left:300px;
+        max-width:80%;
+    }
+     .data .down {
+        padding-left:300px;
+        max-width:80%;
+    }
+}

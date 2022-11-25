@@ -1,0 +1,22 @@
+.comment{
+ 
+    background:#f6f9fc;
+}
+.comment h2{
+    padding:40px;
+}
+.comment ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:500px;
+    margin:40px ;
+    list-style: none;
+}
+
+.comment li {
+    position: absolute;
+    left: 150px;
+    transition: 0.4s;
+}

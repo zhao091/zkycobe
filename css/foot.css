@@ -1,0 +1,51 @@
+ .foot{
+   border-top: 2px solid #deecfb;
+    background-color: #f6f9fc;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+ }
+ .foot1{
+    margin-top: 10px ;
+    margin-right:100px;
+    padding:70px;
+ }
+ .foot1 .logo {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #012970;
+    margin-top: 3px;
+    text-decoration: none;
+}
+ .foot1 .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+}
+.foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+ .foot21,.foot22,.foot23{
+    margin-right: 20px;
+ }
+ .foot2 a{
+    text-decoration: none;
+    color:#012970;
+    font-weight: 100px;
+ }
+ .footer{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer span{
+    color:#012970;
+ }
+
+

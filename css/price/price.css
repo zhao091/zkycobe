@@ -1,0 +1,116 @@
+.choose{
+    background:#f6f9fc;
+    max-width :100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+    padding-top: 100px;
+
+}
+h2{
+    color: #012970;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px;
+    text-align:start;
+}
+.price{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px 3PX rgb(227, 221, 221);
+    border-radius: 6px;
+    background-size:100%;
+    margin: 10px 50px;
+    padding:20px;
+}
+.left1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.left-left,.left-right,.right-left,.right-right{
+    padding:40px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px 3PX rgb(227, 221, 221);
+    border-radius: 6px;
+    background-size:100%;
+    margin: 10px 50px;
+    padding:20px;
+}
+.right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.price .left .produce-title{
+    display:flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction:row;
+}
+.price .right .produce-title{
+    display:flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction:row;
+}
+.price img{
+    margin:10px 10px;
+    width:40px;
+}
+hr{
+    width:400px;
+    color: #ddd;
+}
+.pricespan{
+    color: #4f6069;
+    line-height: 54px;
+    font-size: 48px;
+}
+h6{
+    color: #4f6069;
+}
+.produce p{
+    color: #4f6069;
+}
+.left-right,.right-right{
+    margin:20px auto;
+    border-left:2px solid #ddd;
+}
+.buybotton{
+    width:150px;
+    color:white;
+    background-color: #635bff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1;
+    margin: 20px 10px;
+    padding: 12px 32px;
+    border: 2px solid #635bff;
+    border-radius: 4px;
+}
+.buybotton:hover{
+    background-color: #746eef;
+}
+.buybotton i{
+    display:none;
+}

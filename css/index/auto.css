@@ -1,0 +1,78 @@
+.auto {
+    background: white;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .auto .autotext {
+    position: absolute;
+} 
+
+.auto .autotext h1 {
+    color: #012970;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.auto .autotext h2 {
+    color: #012970;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.auto .autotext .free {
+    width: 170px;
+    height: 60px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1;
+    padding: 12px 32px;
+    background-color: #635bff;
+    border: 2px solid #635bff;
+    color: white;
+}
+
+.auto .autotext .free:hover {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1;
+    padding: 12px 32px;
+    background-color: #7972f9;
+    border: 2px solid #635bff;
+    color: white;
+}
+
+.auto .autotext .login {
+    width: 170px;
+    height: 60px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1;
+    padding: 12px 32px;
+    border: 2px solid #635bff;
+    color: #635bff;
+}
+.login:hover{
+    background-color: rgb(230, 223, 250);
+}
+
+.auto img {
+    position: relative;
+    left: 300px;
+    max-height: 600px;
+    margin-left: 50px;
+}

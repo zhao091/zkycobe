@@ -1,0 +1,121 @@
+.produce{
+    display:flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction:row;
+}
+ .produce .produce1{
+    box-shadow: 0px 0px 3px 3PX rgb(227, 221, 221);
+    border-radius: 6px;
+    background-size:100%;
+    margin: 10px 50px;
+    padding:40px;
+}
+
+.produce .produce1 .produce1-title{
+    display:flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction:row;
+}
+
+.produce .produce1 .produce1-title img{
+    margin:10px 10px;
+    width:40px;
+}
+.produce .produce1 .produce1-title h4{
+    color:#012970;
+    font-size:18px;
+}
+.produce .produce2 .produce2-title h4{
+    color:#012970;
+    font-size:18px;
+}
+.produce .produce1 p{
+    margin:5px 10px;
+    padding:10px;
+    color:#969697;
+}
+.produce .produce1 a{
+    background-color:white;
+    font-weight: 600;
+    color:#635bff;
+    text-decoration: none;
+    margin:5px 0px 5px 10px;
+    padding:10px;
+}
+.produce .produce1 a:hover{
+    color:#7a73fc;
+}
+.produce .produce1 .i1{
+    transition: 1s;
+    position:relative;
+    font-weight: 600;
+    color:#635bff;
+    margin:3px auto;
+    padding-left:4px; 
+}
+.produce .produce1 .i2{
+    display:none;
+    transition: 0.4s;
+    position:relative;
+    font-weight: 600;
+    color:#635bff;
+    margin:3px auto;
+    padding-left:3px; 
+}
+
+.produce .produce2{
+    box-shadow: 0px 0px 3px 3PX rgb(227, 221, 221);
+    border-radius: 6px;
+    background-size:100%;
+    margin:10px 50px;
+    padding:40px;
+} 
+.produce .produce2 .produce2-title{
+    display:flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction:row;
+}
+
+.produce .produce2 .produce2-title img{
+    margin:10px 10px;
+    width:40px;
+}
+.produce .produce1 .produce2-title h4{
+    color:#012970;
+    font-size:18px;
+}
+.produce .produce2 p{
+    margin:5px 10px;
+    padding:10px;
+    color:#969697;
+}
+.produce .produce2 a{
+    background-color:white;
+    font-weight: 600;
+    color:#635bff;
+    text-decoration: none;
+    margin:5px 10px;
+    padding:10px;
+}
+.produce .produce2 a:hover{
+    color:#7a73fc;
+}
+.produce .produce2 .i1{
+    
+    position:relative;
+    font-weight: 600;
+    color:#635bff;
+    margin:3px auto;
+    padding-left:4px; 
+}
+.produce .produce2 .i2{
+    display:none;
+    position:relative;
+    font-weight: 600;
+    color:#635bff;
+    margin:3px auto;
+    padding-left:3px; 
+}

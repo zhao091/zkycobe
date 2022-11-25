@@ -1,0 +1,52 @@
+.ourclient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ourclient h5{
+    font-size: 23px;
+    color: #012970;
+    font-weight: 100;
+    margin:10px;
+}
+.ourclient1{
+    max-width: 80%;
+    height:200px;
+    background-color: #635bff;
+    background-size: 60% 150%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+}
+.client1,.client2,.client3{
+    margin:60px 70px;
+    padding:20px;
+}
+.client1 p,.client2 p,.client3 p{
+    font-size: 20px;
+    color:white;
+    padding:20px;
+}
+.client1 h2,.client2 h2,.client3 h2{
+    color:white;
+}
+.ourclient2 .table1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ourclient2 img{
+    margin:10px;
+    padding:20px;
+    align-self: center;
+    max-width: 200px;
+    border-right:2px dashed #bbb;
+}
+.outclient2 .table1 .td1{
+    border-right:2px dashed #bbb;
+ }

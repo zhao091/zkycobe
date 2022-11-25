@@ -1,0 +1,8 @@
+@media screen and (max-width:991px) {
+    .price{
+        flex-direction: column;
+    }
+    .FAQ{
+        margin-top:350px;
+    }
+}
